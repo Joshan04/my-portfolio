@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Personal Portfolio
 
-## Getting Started
+A professional, high-performance personal portfolio built to showcase engineering work, technical skills, and a user-centric approach to software development.
 
-First, run the development server:
+## 🛠️ Tech Stack
+
+This project is built with modern, scalable technologies:
+
+- **Framework**: [Next.js (App Router)](https://nextjs.org/)
+- **UI Library**: [React](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Email API**: [Resend](https://resend.com/)
+
+## ✨ Features
+
+- **Responsive Design**: Flawless experience across all devices with carefully crafted mobile and desktop states (including touch-safe hover interactions).
+- **Premium Aesthetics**: Clean, modern dark mode UI with glassmorphism effects, strategic glow highlights, and subtle micro-interactions.
+- **Contact Form**: Integrated functional contact form utilizing the Resend API for direct communication.
+- **Dynamic Projects Showcase**: Highlight featured work (like Taskflow) with dedicated problem/solution breakdowns and live links.
+- **Performance Optimized**: Built on Next.js Turbopack with strict adherence to Web Vitals and SEO best practices.
+
+## 🚀 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Next, duplicate the `.env.local.example` or set up the environment variables (specifically for Resend):
+
+```bash
+RESEND_API_KEY=your_resend_api_key_here
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Next.js App Router layout and pages.
+- `src/components/` - Reusable UI components (Navbar, Container, etc.).
+- `src/sections/` - Major page sections (Hero, About, Projects, Skills, Approach, Contact, Footer).
+- `src/lib/` - Utility functions and shared constants (e.g., social links).
+- `public/` - Static assets and media.
 
-## Learn More
+## 🚢 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This platform is ready for seamless deployment on [Vercel](https://vercel.com/):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Then follow Vercel's standard deployment flow. Ensure that your `RESEND_API_KEY` is added to the production environment variables.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Designed and engineered with a focus on reliability, speed, and user experience.*
