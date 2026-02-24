@@ -1,8 +1,8 @@
-# 🚀 Personal Portfolio
+#  Personal Portfolio
 
 A professional, high-performance personal portfolio built to showcase engineering work, technical skills, and a user-centric approach to software development.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 This project is built with modern, scalable technologies:
 
@@ -12,7 +12,7 @@ This project is built with modern, scalable technologies:
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Email API**: [Resend](https://resend.com/)
 
-## ✨ Features
+##  Features
 
 - **Responsive Design**: Flawless experience across all devices with carefully crafted mobile and desktop states (including touch-safe hover interactions).
 - **Premium Aesthetics**: Clean, modern dark mode UI with glassmorphism effects, strategic glow highlights, and subtle micro-interactions.
@@ -20,7 +20,7 @@ This project is built with modern, scalable technologies:
 - **Dynamic Projects Showcase**: Highlight featured work (like Taskflow) with dedicated problem/solution breakdowns and live links.
 - **Performance Optimized**: Built on Next.js Turbopack with strict adherence to Web Vitals and SEO best practices.
 
-## 🚀 Getting Started
+##  Getting Started
 
 First, install the dependencies:
 
@@ -42,7 +42,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📁 Project Structure
+##  Project Structure
 
 - `app/` - Next.js App Router layout and pages.
 - `src/components/` - Reusable UI components (Navbar, Container, etc.).
@@ -50,7 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/lib/` - Utility functions and shared constants (e.g., social links).
 - `public/` - Static assets and media.
 
-## 🚢 Deployment
+##  Deployment
 
 This platform is ready for seamless deployment on [Vercel](https://vercel.com/):
 
